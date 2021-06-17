@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+form input {
+    margin-top: 12px;
+}
+
+table {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.btn {
+    border: 1px solid black;
+    width: fit-content;
+    margin: 8px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    color: blue;
+}
+
+.update, .remove {
+    cursor: pointer;
+}

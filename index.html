@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./screen/login.css">
+    <link rel="stylesheet" href="./screen/register.css">
+    <title>Document</title>
+    
+    <!-- Fontawesome 4.7 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet" />
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script
+      defer
+      src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"
+    ></script>
+
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          databaseURL: "https://login-register-18978.firebaseio.com",
+          apiKey: "AIzaSyCXxOV8QSFtrEE6HBRFI1ZjIxtxCLmJKNw",
+          authDomain: "login-register-18978.firebaseapp.com",
+          projectId: "login-register-18978",
+          storageBucket: "login-register-18978.appspot.com",
+          messagingSenderId: "286468225971",
+          appId: "1:286468225971:web:0b385274d71e52170169c6"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="//unpkg.com/navigo@6"></script>
+
+
+    <!-- <style>
+        body {
+            background-color: #f0f0f0;
+        }
+    </style> -->
+</head>
+
+<body>
+    <article id="app">
+    
+        <login-screen></login-screen>
+    </article>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
